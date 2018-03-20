@@ -17,5 +17,6 @@ def alphabetize(arr)
   end 
   
   first_word_value.sort_by {|phrase, order_num| order_num} 
+  first_word.keys 
   
 end

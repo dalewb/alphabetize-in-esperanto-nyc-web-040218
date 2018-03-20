@@ -20,3 +20,11 @@ require 'pry'
 #   first_word_value.keys 
   
 # end
+
+def alphabetize(arr)
+  alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".chars
+
+  arr.sort_by do |phrase|
+    phrase.chars.map { |c| alpha.index(c) }
+  end
+end 

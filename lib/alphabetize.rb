@@ -1,3 +1,5 @@
+require 'pry'
+
 def alphabetize(arr)
   esp_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
@@ -7,4 +9,5 @@ def alphabetize(arr)
     ranking_hash[letter] = idx 
   end 
   
+  binding.pry 
 end

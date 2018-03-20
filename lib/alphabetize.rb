@@ -1,3 +1,6 @@
 def alphabetize(arr)
-  esp_alphabet = 
+  esp_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  
+  
+  
 end

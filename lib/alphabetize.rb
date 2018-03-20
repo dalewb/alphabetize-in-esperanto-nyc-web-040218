@@ -5,7 +5,7 @@ def alphabetize(arr)
   
   ranking_hash = {} 
   
-  esp_alphabet.each_with_index do |letter,idx|
+  esp_alphabet.split('').each_with_index do |letter,idx|
     ranking_hash[letter] = idx 
   end 
   
